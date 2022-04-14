@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="@dimen/margin_one"
+    tools:context=".OtpConfirmFragment">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Confirmation de votre numéro de téléphone"
+        android:textSize="@dimen/title_text_size" />
+
+
+    <com.poovam.pinedittextfield.LinePinField
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_two"
+        android:inputType="number"
+        android:textSize="@dimen/normal_text_size"
+        app:noOfFields="6"
+        app:fieldColor="@color/colorPrimary"
+        app:lineThickness="2dp"
+        app:isCursorEnabled="true"
+        android:id="@+id/line_pin_field" />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/regular_edit_height"
+        android:layout_marginTop="@dimen/margin_two"
+        android:text="@string/confirm" />
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

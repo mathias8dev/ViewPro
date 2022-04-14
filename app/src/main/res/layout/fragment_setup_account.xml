@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="@dimen/margin_one"
+    tools:context=".SetupAccountFragment">
+
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:layout_width="@dimen/avatar_size"
+        android:layout_height="@dimen/avatar_size"
+        android:id="@+id/avatar_image" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/avatar_text"
+        android:text="@string/avatar" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_two"
+        android:text="Nom d'utilisateur"
+        android:id="@+id/username_text" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/regular_edit_height"
+        android:id="@+id/username_edit"
+        android:layout_marginTop="@dimen/margin_one"
+        android:hint="@string/mathias8dev" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_two"
+        android:text="@string/your_name"
+        android:id="@+id/name_text" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_marginTop="@dimen/margin_one"
+        android:layout_height="@dimen/regular_edit_height"
+        android:hint="@string/my_name"
+        android:id="@+id/name_edit" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/nickname"
+        android:layout_marginTop="@dimen/margin_two"
+        android:id="@+id/nickname_text" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/regular_edit_height"
+        android:layout_marginTop="@dimen/margin_one"
+        android:id="@+id/nickname_edit"
+        android:hint="Kossi Mathias" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/regular_edit_height"
+        android:layout_marginTop="@dimen/margin_two"
+        android:id="@+id/login_button"
+        android:text="@string/login" />
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

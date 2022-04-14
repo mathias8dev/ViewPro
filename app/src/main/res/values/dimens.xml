@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="body_text_size">14sp</dimen>
+    <dimen name="normal_text_size">16sp</dimen>
+    <dimen name="title_text_size">18sp</dimen>
+    <dimen name="h1_text_size">22sp</dimen>
+    <dimen name="medium_text_size">14sp</dimen>
+    <dimen name="error_text_size">12sp</dimen>
+    <dimen name="bottom_nav_height">48dp</dimen>
+    <dimen name="regular_padding">10dp</dimen>
+    <dimen name="edit_radius">5dp</dimen>
+    <dimen name="regular_edit_height">42dp</dimen>
+    <dimen name="margin_two">20dp</dimen>
+    <dimen name="margin_one">10dp</dimen>
+    <dimen name="avatar_size">150dp</dimen>
+    <dimen name="meetings_list_item_radius">5dp</dimen>
+    <dimen name="margin_three">30dp</dimen>
+    <dimen name="action_icon_size">24dp</dimen>
+    <dimen name="text_area_height">200dp</dimen>
+    <dimen name="margin_semi">5dp</dimen>
+</resources>

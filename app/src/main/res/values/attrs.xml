@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="AvatarGroup">
+        <attr name="mode" format="enum">
+            <enum name="overlap" value="1" />
+            <enum name="spaced" value="2" />
+        </attr>
+
+        <attr name="avatarSize" format="dimension" />
+
+        <attr name="spaceWidth" format="dimension" />
+        <attr name="itemBackground" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="TagGroup">
+        <attr name="spaceWidth" format="dimension" />
+        <attr name="itemBackground" format="reference" />
+    </declare-styleable>
+
+</resources>

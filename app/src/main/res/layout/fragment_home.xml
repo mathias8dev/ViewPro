@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/regular_padding"
+    tools:context=".HomeFragment">
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/new_meeting_text"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"
+        android:text="@string/create_new_meeting" />
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/meeting_title"
+        android:textSize="@dimen/normal_text_size"
+        android:text="@string/meeting_tittle" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/meeting_title_edit"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/regular_edit_height"
+        android:background="@drawable/light_gray_rounded"
+        android:layout_marginTop="@dimen/margin_one"
+        android:hint="@string/mihawk_project"
+        android:textColor="@color/black" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_marginTop="@dimen/margin_two"
+        android:layout_height="wrap_content"
+        android:id="@+id/description_text"
+        android:text="@string/description" />
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/description_edit"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/light_gray_rounded"
+        android:layout_marginTop="@dimen/margin_one"
+        android:inputType="text"
+        android:layout_marginBottom="@dimen/regular_padding"
+        android:maxLines="1"
+        android:textColor="@color/black" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/datetime_text"
+        android:layout_marginTop="@dimen/margin_two"
+        android:text="@string/datetime" />
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/datetime_edit"
+        android:layout_width="match_parent"
+        android:inputType="none"
+        android:maxLines="1"
+        android:layout_marginTop="@dimen/margin_one"
+        android:textColor="@color/black"
+        android:background="@drawable/light_gray_rounded"
+        android:layout_height="@dimen/regular_edit_height" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/generate_button"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/regular_edit_height"
+        android:background="@drawable/outline_primary"
+        android:layout_marginTop="@dimen/margin_two"
+        android:text="@string/generate"
+        android:textColor="@color/black" />
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

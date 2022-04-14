@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">ViewPro</string>
+    <string name="configurations">Configurations</string>
+    <string name="meetings">Meetings</string>
+    <string name="home">Home</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="generate">Générer</string>
+    <string name="create_new_meeting">Créer un nouveau meeting</string>
+    <string name="meeting_tittle">Titre de la réunion</string>
+    <string name="mihawk_project">Projet Mihawk</string>
+    <string name="description">Description</string>
+    <string name="datetime">Date et heure</string>
+    <string name="login">Se Connecter</string>
+    <string name="avatar">Avatar</string>
+    <string name="mathias8dev">mathias8dev</string>
+    <string name="your_name">Votre Nom</string>
+    <string name="my_name">KALIPE</string>
+    <string name="nickname">Votre Prénom</string>
+    <string name="confirm">Confirmer</string>
+    <string name="date">Date</string>
+    <string name="read_more">Lire plus</string>
+    <string name="take_part">Prendre part</string>
+    <string name="create">Créer</string>
+</resources>
